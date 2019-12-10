@@ -15,7 +15,11 @@ $(document).ready(function(){
 
     $("#link_c").click(function() {
     $("#main").load("contact.txt");
-    }); 
+    });
+    
+    $("#logo").click(function() {
+    $("#main").load("maina.txt");
+    });  
 });  
     
 
